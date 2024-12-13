@@ -6,6 +6,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      app
       bottomNavigationBar: BottomNavigationBar(
         items: const [
           BottomNavigationBarItem(
