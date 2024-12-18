@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:sneaker_store/screens/details_screen.dart';
 import 'package:sneaker_store/screens/get_started_4_screen.dart';
+import 'package:sneaker_store/screens/get_started_screen.dart';
+import 'package:sneaker_store/screens/log_in.dart';
 import 'package:sneaker_store/screens/splash_screen.dart';
 import 'package:sneaker_store/utils/app_colors.dart';
 
@@ -25,7 +28,9 @@ class SneakerStoreApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: AppColors.mainColor),
           useMaterial3: true,
         ),
-        home: const GetStarted4Screen(),
+        home: const DetailsScreen(),
+
+
       ),
     );
   }

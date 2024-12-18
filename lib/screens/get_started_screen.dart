@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:sneaker_store/screens/details_screen.dart';
 import 'package:sneaker_store/screens/get_started_2_screen.dart';
 import 'package:sneaker_store/utils/app_colors.dart';
 import 'package:sneaker_store/utils/app_images.dart';
@@ -101,7 +102,7 @@ class GetStartedScreen extends StatelessWidget {
                 Navigator.push(
                   context,
                   MaterialPageRoute(
-                    builder: (context) => const GetStarted2Screen(),
+                    builder: (context) => const DetailsScreen(),
                   ),
                 );
               },
